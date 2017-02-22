@@ -1,3 +1,5 @@
+// STYLING FOR WELCOME PAGE
+
 #banner {
 	background-image: url(image_path("welcome_banner_image.jpg"));
 	background-size: cover;
@@ -12,14 +14,14 @@
 		text-align: center;
 		h1 {
 			@include bold_font;
-			color: white;
+			color: #529ECC;
 			font-size: 3.5rem;
 			margin: 0;
 		}
 		p {
 			font-size: 1.5rem;
 			margin: 0 0 2.5rem 0;
-			color: rgba(250, 250, 250, 0.5);
+			color: rgba(82,158,204, 0.6);
 		}
 	}
 }
@@ -41,7 +43,7 @@
 }
 
 #callouts {
-	background-image: url(image_path("callout_background.jpg"));
+	background-image: image-url("callout_background.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top center;
@@ -54,7 +56,7 @@
 	}
 	.callout {
 		text-align: center;
-		width: 33.3333%;
+		width: 100%;
 		padding: 1.5rem 2.5%;
 		float: left;
 		h2 {
@@ -63,7 +65,7 @@
 			margin-bottom: 0;
 		}
 		p {
-			color: rgba(250, 250, 250, 0.4);
+			color: rgba(255, 255, 255, 0.9);
 		}
 	}
 }
